@@ -8,7 +8,9 @@
   "icon": "🎬",
   "color": "#6366f1",
   "tags": ["video", "remotion", "react", "render", "mp4", "programmatic", "lambda"],
+  "main": "scripts/remotion_render.py",
   "platform": "openclaw",
-  "dependencies": ["node"],
-  "skills": []
+  "requires": {
+    "anyBins": ["node", "npx"]
+  }
 }
